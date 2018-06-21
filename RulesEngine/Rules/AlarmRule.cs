@@ -14,7 +14,7 @@ namespace RulesEngine.Rules
         {
             _alarmId = alarmId;
 
-            Console.WriteLine($"Creating new rule with ID [{Id}]: when CPC message contains alarm [{_alarmId}]");
+            Console.WriteLine($"Creating new rule with ID [{Id}]: when message contains alarm [{_alarmId}]");
         }
 
         public override bool Evaluate(Message message)

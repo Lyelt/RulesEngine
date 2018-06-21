@@ -23,7 +23,7 @@ namespace RulesEngine.Rules
             else
                 _target = Expression.Constant(targetVal);
 
-            Console.WriteLine($"Creating new rule with ID [{Id}]: when CPC message contains measurement [{_measureId}] [{_operator}] [{_target}]");
+            Console.WriteLine($"Creating new rule with ID [{Id}]: when message contains measurement [{_measureId}] [{_operator}] [{_target}]");
         }
 
         public override bool Evaluate(Message message)
